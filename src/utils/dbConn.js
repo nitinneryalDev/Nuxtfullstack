@@ -9,7 +9,6 @@ if(!MONGODB_URL) {
 let cached = global.mongoose
 
 if(!cached) {
-    console.log(' not connected  !cached' )
     cached = global.mongoose = {con:null , promise:null}
 }
 

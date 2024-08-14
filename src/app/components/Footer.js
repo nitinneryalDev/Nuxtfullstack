@@ -65,8 +65,8 @@ const Footer = () => {
                 </div>
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
-                        <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                        <span className={footerStyles.copyright_text}> Copyright © 2024
+                            <Link href="/>"> Nitin NERYAL.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
