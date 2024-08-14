@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 const inter = Inter({ subsets: ["latin"] });
 import { Mulish } from "next/font/google";
+import Footer from "./components/Footer";
 
 const mulish = Mulish({
  weight:[ "300" , "400" , "500" , "600" , "700" , "800" , "900" ],
@@ -20,7 +21,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className={mulish.className}>
       <body >
       <Header/>
-      {children}</body>
+      {children}
+      <Footer/>
+      </body>
     </html>
   );
 }
